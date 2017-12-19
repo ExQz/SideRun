@@ -76,7 +76,12 @@ public class ExampleSceneManagerController : MonoBehaviour
         HttpClient client = new HttpClient();
         client.GetByteArray(new System.Uri("http://httpbin.org/get"), HttpCompletionOption.AllResponseContent, (r) =>
         {
+           
         });
+
+        
+
+        
     }
 
     public void Patch()
